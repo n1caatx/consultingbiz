@@ -1,0 +1,18 @@
+.container{
+    background-image: url('https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/footer_bg.jpg') ;
+    height: 40vh;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+}
+
+.heart{
+    color: red;
+}
+
+.container a{
+    color: red;
+}

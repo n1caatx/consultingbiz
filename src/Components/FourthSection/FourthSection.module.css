@@ -1,0 +1,75 @@
+.texts{
+    text-align: start;
+    padding: 100px;
+    padding-bottom: 0;
+}
+
+.ourprofessional{
+    color: #eb566c;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-left: 2px solid #eb566c;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.ourteam{
+    font-family: "Sarabun", sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    width: 60%;
+    margin-bottom: 30px;
+    margin-top: 0;
+    color: #092c3f;
+}
+
+.cards{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.card img{
+    height: 60vh;
+}
+
+.card p{
+    text-align: start;
+}
+
+.ethan{
+    font-family: "Sarabun", sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #092c3f;
+}
+
+.ux{
+    color: #eb566c;
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    border-left: 2px solid #eb566c;
+    padding: 5px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width:1024px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .card img{
+        height: 40vh;
+    }
+}

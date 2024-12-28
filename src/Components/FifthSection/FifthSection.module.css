@@ -1,0 +1,24 @@
+.container{
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.logos img{
+    height: 36px;
+}
+
+
+@media screen and (max-width:1024px) {
+    .logos {
+        display: flex;
+        flex-direction: column;
+    }
+}
